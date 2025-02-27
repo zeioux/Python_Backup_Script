@@ -41,7 +41,7 @@ elif object_to_backup_path.is_dir():
             zip_file.write(
                 file.absolute(),
                 arcname=str(file.relative_to(object_to_backup_path)),
-                compress_type=zipfile.ZIP_DEFLATED
+                compress_type=zipfile.ZIP_DEFLATEDdzq
             )
 
 zip_file.close()
