@@ -33,7 +33,7 @@ if object_to_backup_path.is_file():
     zip_file.write(
         object_to_backup_path.absolute(),
         arcname=object_to_backup_path.name,
-        compress_type=zipfile.ZIP_DEFLATED dd
+        compress_type=zipfile.ZIP_DEFLATED
     )
 elif object_to_backup_path.is_dir():
     for file in object_to_backup_path.glob('**/*'):
