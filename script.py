@@ -4,7 +4,7 @@ import zipfile
 
 OBJECT_TO_BACKUP = 'dir for backup'
 BACKUP_DIRECTORY = ('dir to backup')
-MAX_BACKUP_AMOUNT = 1
+MAX_BACKUP_AMOUNT = 5
 
 
 object_to_backup_path = Path(OBJECT_TO_BACKUP)
