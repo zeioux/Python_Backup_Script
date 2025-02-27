@@ -1,3 +1,7 @@
+from datetime import datetime
+from pathlib import Path
+import zipfile
+
 OBJECT_TO_BACKUP = '/home/zeioux/Documents/VPN/id.txt'
 BACKUP_DIRECTORY = '/home/zeioux/'
 MAX_BACKUP_AMOUNT = 1
